@@ -10,7 +10,11 @@ https://apps.facebook.com/agarman
 
 ## Installing
 
-To run the code yourself, please create a Facebook application. The file `config/php` points to several required resources that you should configure (a MySQL or compatible PDO DB, and a Memcache pool); `main.sql` contains code to initialize the DB, which you should run before accessing the app.
+* First, create a Facebook application at [https://developers.facebook.com/apps](https://developers.facebook.com/apps. Once your app is created, fill in "Website with Facebook Login" and "App on Facebook".
+* Now, edit `config.php`, which points to several required resources that you must configure (a MySQL or compatible PDO DB, and a Memcache pool)
+* `main.sql` contains code to initialize the DB, which you must run before accessing the app.
+* Finally, set up **//TAG:AUTH** in config.php.
+* Visit the URL to the app and start playing!
 
 ## Additional Resources
 

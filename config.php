@@ -30,6 +30,15 @@ $memcacheServers = array(
 //array('otherhost', 11211), //...
 );
 
+//TAG:AUTH
+$appID = 'YOUR_APP_ID';
+$appSecret = 'YOUR_APP_SECRET';
+//your namespace you entered when setting up your FB app
+$appURL = '//apps.facebook.com/YOUR_NAMESPACE/'; 
+$domain = 'YOUR_DOMAIN'; //eg, mattwkelly.com
+$appName = 'YOUR_NAMESPACE';
+$serverURL = 'YOUR_URL'; //eg, http://www.mattwkelly.com/agarman
+
 // some global salt strings
 $uidsalt = '6e3332d6';
 $wordsalt = '4996b3f9';
@@ -87,14 +96,6 @@ $scoringRules = array(
     )
   )
 );
-
-//TAG:AUTH
-$appID = '104191753063425';
-$appSecret = '335eb74b4d3dfb3643bb8f51ec3c0038';
-$appURL = '//apps.facebook.com/agarman/';
-$domain = 'freeeel.com';
-$appName = 'agarman';
-$serverURL = 'http://freeeel.com/nagaram/index.php';
 
 //TAG:PAYMENTS
 $payrate = 0.7; // how much money you get for each credit spent

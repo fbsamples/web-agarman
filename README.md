@@ -14,7 +14,7 @@ To run the code yourself, please create a Facebook application. The file `config
 
 ## Additional Resources
 
- * The app demonstrates serveral platform features, all tagged so they can be found easily in the code. Search for:
+ * The app demonstrates several platform features, all tagged so they can be found easily in the code. Search for:
    * `TAG:AUTH` to see how to implement Facebook authentication
    * `TAG:REQUESTS` as an example of creating and managing requests
    * `TAG:FEED` to see how to use the Feed dialog

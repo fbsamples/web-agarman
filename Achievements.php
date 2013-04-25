@@ -88,7 +88,7 @@ class Achievements {
 
   // Render a web page for a given achievement
   public static function getAchievement($name) {
-    global $achievements, $appID;
+    global $achievements, $appID, $appURL;
     if(isset($achievements[$name])) {
       $a = $achievements[$name];
     } else {
@@ -171,7 +171,7 @@ $achievements = array(
   ),
   'a500pts' => array (
     'display_order' => 30,
-    'title' => 'Beyond the imposible',
+    'title' => 'Beyond the impossible',
     'description' => 'You scored 500 points in AGAR MAN. ' .
     'You are the ULTIMATE WORD SUPERHERO.',
     'image' => "http://$GLOBALS[domain]/nagaram/client/agarthumb.png",

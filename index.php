@@ -217,7 +217,6 @@ function getRequests() {
   // and switch back:
   $facebook->setAccessToken($userToken);
   return $fbRequests['data'];
-  return array();
 }
 
 function getFbRequests($user, $param) {

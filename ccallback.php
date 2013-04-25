@@ -117,7 +117,7 @@ if ($request_type == 'payments_get_items') {
   } else if ($current_order_status == 'disputed') {
     // 1. Track disputed item orders.
     // 2. Investigate user's dispute and resolve by settling or refunding the order.
-    // 3. Update the order status asychronously using Graph API.
+    // 3. Update the order status asynchronously using Graph API.
 
   } else if ($current_order_status == 'refunded') {
     // Track refunded item orders initiated by Facebook. No need to respond.

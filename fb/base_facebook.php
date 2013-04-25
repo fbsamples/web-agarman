@@ -704,6 +704,7 @@ abstract class BaseFacebook
    * either logged in to Facebook or has granted an offline access permission.
    *
    * @param string $code An authorization code.
+   * @param string $redirect_uri The URL to redirect to.
    * @return mixed An access token exchanged for the authorization code, or
    *               false if an access token could not be generated.
    */
